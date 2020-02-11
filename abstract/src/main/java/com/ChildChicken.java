@@ -7,9 +7,4 @@ public class ChildChicken extends Chicken {
         return 1;
     }
 
-    @Override
-    public String getType() {
-        return getClass().getSimpleName();
-    }
-
 }

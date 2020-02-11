@@ -5,11 +5,4 @@ public class Hen extends Chicken {
     public double getPrice() {
         return 3;
     }
-
-    @Override
-    public String getType() {
-        return getClass().getSimpleName();
-    }
-
-
 }
